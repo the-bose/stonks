@@ -1,5 +1,4 @@
 const { app, BrowserWindow, Menu } = require('electron');
-const shortid = require('shortid');
 const shell = require('electron').shell;
 
 // Keep a global reference of the window object, if you don't, the window will
