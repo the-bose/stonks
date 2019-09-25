@@ -1,12 +1,12 @@
 {
-  "Alice1": {
-    "shareholderId": "1",
-    "name": "Alice",
-    "shareCount": 5
-  },
-  "Bob2": {
-    "shareholderId": "2",
-    "name": "Bob",
-    "shareCount": 10
-  }
+    "Alice0": {
+        "name": "Alice",
+        "shareCount": 5,
+        "shareholderId": 0
+    },
+    "Bob1": {
+        "name": "Bob",
+        "shareCount": 10,
+        "shareholderId": 1
+    }
 }
