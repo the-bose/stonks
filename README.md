@@ -3,7 +3,6 @@ A shares-management system. Created as a project for **Object Oriented Software 
 
 [![Made with Javascript](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 [![Made with C++](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
-[![Gluten-Free!](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
 
 
 ## Installation
@@ -24,3 +23,5 @@ A shares-management system. Created as a project for **Object Oriented Software 
 ```
   $ npm start
 ```
+
+[![MS Paint](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)](https://forthebadge.com)
