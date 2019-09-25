@@ -1,6 +1,7 @@
 // ELECTRON CODE
 const electron = require('electron')
 const BrowserWindow = electron.remote.BrowserWindow
+const cmd = require('node-cmd');
 
 // const btn = $('#empLoginBtn');
 //
@@ -23,8 +24,9 @@ const BrowserWindow = electron.remote.BrowserWindow
 // NON ELECTRON CODE
 let usrID;
 let uname;
+let shID;
 
-var cAvail, cPrice, cWorth, uCount, uValue;
+var cAvail, cPrice, cWorth, cTWorth, uCount, uValue;
 
 
 // COMPANY DETAILS
@@ -33,9 +35,11 @@ function loadCompanyDetails() {
     cAvail = data["availShares"];
     cPrice = data["sharePrice"];
     cWorth = cAvail * cPrice;
+    cTWorth = data["totShares"] * cPrice;
     $('#cAvail').html(cAvail);
     $('#cPrice').html('₹ ' + cPrice);
     $('#cWorth').html('₹ ' + cWorth);
+    $('#cTWorth').html('₹ ' + cTWorth);
     console.log(cAvail, cPrice, cWorth);
   });
 }
@@ -75,7 +79,11 @@ function buyShares() {
     alert("Enter valid share amount to buy!");
   } else {
     // BUYING SHARES
+    let cmdr = "src\\files\\main.exe 1 " + shID + " " + parseInt(bShare);
+    console.log(cmdr);
+    cmd.get(cmdr, (err, data, stderr) => console.log(data, err, stderr));
     alert("Share bought!");
+
     loadBuyShares();
   }
 }
@@ -87,6 +95,7 @@ window.onload = function() {
   function loginSubmit() {
     usrID = $('#usrID').val();
     uname = usrID.replace(/[0-9]/g, '');
+    shID = usrID.replace(/[a-zA-Z]/g, '');
 
     $.getJSON('files/shr.JSON', function (data) {
       try {
