@@ -1,0 +1,17 @@
+{
+  "name": "stonks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compile-run": "^2.3.2",
+    "electron": "^6.0.10",
+    "shortid": "^2.2.15"
+  }
+}
