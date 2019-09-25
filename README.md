@@ -1,5 +1,9 @@
-# Stonks
+# Stonks <img src="https://i.imgur.com/bx0Gz3B.png" align="right" width="100">
 A shares-management system. Created as a project for **Object Oriented Software Development** laboratory.
+
+[![Made with Javascript](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![Made with C++](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
+[![Gluten-Free!](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
 
 
 ## Installation
