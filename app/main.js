@@ -1,5 +1,4 @@
 const { app, BrowserWindow, Menu } = require('electron');
-const {c, cpp, node, python, java} = require('compile-run');
 const shortid = require('shortid');
 const shell = require('electron').shell;
 

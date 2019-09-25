@@ -1,7 +1,7 @@
 {
   "name": "stonks",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shares management system.",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -10,8 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "compile-run": "^2.3.2",
-    "electron": "^6.0.10",
-    "shortid": "^2.2.15"
+    "electron": "^6.0.10"
   }
 }
