@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Stonks - Shares Management System</title>
+    <link rel="icon" href="img/favicon.png" sizes="16x16 32x32" type="image/png">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <!-- JUMBOTRON -->
+    <div class="jumbotron-fluid">
+      <img src="img/face.png" style="float: left;" width="50px" alt="Stonks Banner Image">
+      <h1>Stonks 📈💰</h1>
+    </div>
+
+    <!-- MAINBODY CONTAINER -->
+    <div class="container" id="mainBody">
+      <div class="banner text-center">
+        <img src="img/fullres.jpg" style="border-radius: 10px;" width="300px" alt="Stonks Banner">
+      </div>
+      <form onsubmit="return loginSubmit" id="loginForm">
+        <div class="form-group text-center">
+          <input class="form-control form-control-lg" type="text" id="usrID" autofocus="true" placeholder="Enter Login ID">
+          <span class="error" id="warnTxt"></span>
+        </div>
+      </form>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <button id="shrLoginBtn" class="btn btn-primary btn-lg">Shareholder Login</button>
+          <button id="empLoginBtn" class="btn btn-warning btn-lg">Employee Login</button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- SCRIPTS -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+    <script>if (window.module) module = window.module;</script>
+  </body>
+</html>

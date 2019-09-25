@@ -1,0 +1,31 @@
+body {
+  background: #4B8BBE;
+}
+
+.container {
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-height: 1000px;
+  overflow: hidden;
+  padding: 50px;
+  spacing: 50px;
+}
+
+.jumbotron-fluid {
+  background: #FFE873;
+  margin-top: 0px;
+  padding: 20px;
+}
+
+.banner {
+  padding-bottom: 20px;
+}
+
+.error {
+  color: #FF0000;
+}

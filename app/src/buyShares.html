@@ -1,0 +1,38 @@
+<span class="text-center">
+  <h3>User Dashboard</h3>
+  <hr>
+</span>
+
+<div class="row">
+  <div class="col-sm-6">
+    <h3>Company Shares</h3>
+    <hr>
+    Currently Available: <span id="cAvail"></span><br>
+    Share Price: <span id="cPrice"></span><br>
+    Company worth: <b><span id="cWorth"></span></b>
+  </div>
+  <div class="col-sm-6">
+    <h3>User Bio</h3>
+    <hr>
+    Name: <span id="uName"></span><br>
+    Your shares count: <span id="uCount"></span><br>
+    Your shares value: <b><span id="uValue"></span></b>
+    <div class="text-center">
+      <button class="btn btn-danger btn-md" onclick="logoutFunc()" id="logoutBtn">LOGOUT</button>
+    </div>
+  </div>
+</div>
+
+<div class="text-center" style="padding: 20px">
+  💸💸💸💸💸
+</div>
+
+<div class="">
+  <h3>Buy Shares</h3>
+  <hr>
+  Enter valid share amount to purchase shares under your stock.
+  <div class="form-group text-center">
+    <input type="number" class="form-control form-control-lg" placeholder="Enter share amount" id="buyShareValue"><br>
+    <button class="btn btn-primary btn-md" onclick="buyShares();" id="buySharesBtn">Buy Shares</button>
+  </div>
+</div>
